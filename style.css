@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 69px;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 36px;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-family: Cardo; 
+}
+
+.main-banner {
+    background-image: url(assets/images/main.jpg);
+    width: 100%;
+    height: 698px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-banner__title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38.4px; 
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+.main-banner__btn {
+    padding: 7px 41px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.main-banner__btn span {
+    color: #FFF;
+    font-family: Cardo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+}
+
+.main-banner__black-box {
+    padding: 15px 31px;
+    border-radius: 1px 1px 0px 0px;
+    background: #050505;
+    position: absolute;
+    left: 20px;
+    bottom: 3px;
+}
+
+.main-banner__black-box span {
+    color: #FFF;
+    text-align: center;
+    font-family: Cardo;
+    font-size: 15px;
+}
+
+.services {
+    height: 155px;
+    background: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.services__item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.gallery {
+    display: flex;
+    margin-bottom: 114px;
+}
+
+.gallery img {
+    flex-grow: 1;
+}
+
+.product {
+    display: flex;
+    
+}
+
+.product__text-content {
+    
+    overflow: hidden;
+   
+}
+
+.product__img-content {
+    
+    overflow: hidden;
+    
+}
+
+.product__img-content img {
+    width: 100%;
+}
+
+.product__title {
+    color: #000;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 56px;
+    padding-right: 48px;
+    margin-top: 49px;
+}
+
+.product__type {
+    color: #000;
+    text-align: right;
+    font-family: Cardo;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 37.143px; 
+    padding-right: 48px;
+}
+
+.product__price {
+    color: #000;
+    text-align: right;
+    font-family: Cardo;
+    font-size: 15px;
+    padding-right: 48px;
+    line-height: 27.857px; 
+    margin-top: 19px;
+}
+
+.product__desc {
+    color: #525252;
+    text-align: right;
+    font-family: Cardo;
+    font-size: 18px;
+    line-height: 30.6px; 
+    padding-right: 48px;
+    margin-top: 12px;
+}
+
+.product__link {
+    display: block;
+    color: #000;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 22px; 
+    padding-right: 48px;
+    margin-top: 66px;
+    text-decoration: underline;
+}
